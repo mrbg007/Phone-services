@@ -1,0 +1,78 @@
+/* ==========================================
+   ServicesAndroid Login
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI",sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#eef2f7;
+}
+
+.login-container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.login-card{
+    width:100%;
+    max-width:420px;
+    background:#fff;
+    border-radius:18px;
+    padding:40px;
+    box-shadow:0 10px 35px rgba(0,0,0,.12);
+}
+
+.login-icon{
+    font-size:70px;
+    color:#2563EB;
+}
+
+.login-card h2{
+    font-weight:700;
+    margin-bottom:5px;
+}
+
+.login-card p{
+    margin-bottom:0;
+}
+
+.form-control{
+    height:50px;
+    border-radius:10px;
+}
+
+.form-control:focus{
+    box-shadow:none;
+    border-color:#2563EB;
+}
+
+.btn-primary{
+    height:50px;
+    border-radius:10px;
+    background:#2563EB;
+    border:none;
+    font-size:17px;
+    font-weight:600;
+}
+
+.btn-primary:hover{
+    background:#1D4ED8;
+}
+
+#error{
+    font-size:15px;
+    font-weight:500;
+    min-height:22px;
+}
